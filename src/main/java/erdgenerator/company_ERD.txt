@@ -1,0 +1,77 @@
+-------------------- ERD DIAGRAM ----------------------
+******************* Entity Name :testremote *******************
+Attribute name : id
+Datatype name : int
+
+Attribute name : age
+Datatype name : varchar
+
+
+******************* Entity Name :location *******************
+Attribute name : locationname
+Datatype name : varchar
+
+Attribute name : locationid
+Datatype name : int
+
+Primary Key : locationid
+Foreign key reference table:location(locationid)
+Cardinality for table location with table 'location' 1:1
+
+******************* Entity Name :designation *******************
+Attribute name : post
+Datatype name : varchar
+
+Attribute name : employeeid
+Datatype name : int
+
+Foreign key reference table:employee(employeeid)
+Cardinality for table designation with table 'employee' 1:1
+
+******************* Entity Name :check *******************
+Attribute name : id
+Datatype name : int
+
+Attribute name : age
+Datatype name : varchar
+
+
+******************* Entity Name :employee *******************
+Attribute name : departmentid
+Datatype name : int
+
+Attribute name : name
+Datatype name : varchar
+
+Attribute name : employeeid
+Datatype name : int
+
+Attribute name : email
+Datatype name : varchar
+
+Attribute name : age
+Datatype name : int
+
+Primary Key : employeeid
+Foreign key reference table:employee(employeeid)
+Foreign key reference table:department(departmentid)
+Foreign key reference table:employee(employeeid)
+Cardinality for table employee with table  'employee' 1:Many
+
+******************* Entity Name :department *******************
+Attribute name : departmentname
+Datatype name : varchar
+
+Attribute name : locationid
+Datatype name : int
+
+Attribute name : departmentid
+Datatype name : int
+
+Primary Key : departmentid
+Foreign key reference table:department(departmentid)
+Foreign key reference table:department(departmentid)
+Foreign key reference table:location(locationid)
+Cardinality for table department with table  'location' 1:Many
+
+

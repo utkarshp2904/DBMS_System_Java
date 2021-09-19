@@ -1,0 +1,44 @@
+Database = employee
+
+Table : che {
+	name : varchar
+	id : int
+	type : varchar
+} Location : Local site
+
+Table : stud {
+	name : varchar
+	id : int
+	age : int
+} Location : Local site
+
+Table : sala {
+	id : int
+	salary : int
+	type : varchar
+} Location : Local site
+
+Table : emp {
+	id : int
+	Name : String
+} Location : Local site
+
+Table : students {
+	name : varchar
+	id : int
+	age : int
+} Location : Remote site
+Table : check {
+	name : varchar
+	id : int
+	type : varchar
+} Location : Remote site
+Table : employee {
+	id : int
+	Name : String
+} Location : Remote site
+Table : salary {
+	id : int
+	salary : int
+	type : varchar
+} Location : Remote site

@@ -1,0 +1,11 @@
+CREATE TABLE 'students' (
+'name' VARCHAR(),
+'id' INT(),
+'age' INT(),
+)
+
+CREATE TABLE 'employee' (
+'id' INT(),
+'Name' VARCHAR(),
+)
+

@@ -1,0 +1,2 @@
+designation = { post = "JrDeveloper" , employeeid = "2" } , { post = "HR" , employeeid = "3" }
+employee = { departmentid = "1" , name = "Ram" , employeeid = "2" , email = "ram@gmail.com" , age = "26" } , { departmentid = "1" , name = "Simran" , employeeid = "2" , email = "simran@gmail.com" , age = "32" } , { departmentid = "2" , name = "Harsh" , employeeid = "2" , email = "harsh@gmail.com" , age = "25" }

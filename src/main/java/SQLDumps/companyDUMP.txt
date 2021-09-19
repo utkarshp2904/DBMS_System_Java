@@ -1,0 +1,27 @@
+CREATE TABLE 'testremote' (
+'id' INT(),
+'age')
+
+CREATE TABLE 'location' (
+'locationname''locationid' INT(),
+)
+
+CREATE TABLE 'designation' (
+'post''employeeid' INT(),
+)
+
+CREATE TABLE 'check' (
+'id' INT(),
+'age')
+
+CREATE TABLE 'employee' (
+'departmentid' INT(),
+'name''employeeid' INT(),
+'email''age' INT(),
+)
+
+CREATE TABLE 'department' (
+'departmentname''locationid' INT(),
+'departmentid' INT(),
+)
+

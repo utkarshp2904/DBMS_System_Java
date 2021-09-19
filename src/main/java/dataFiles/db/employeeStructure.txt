@@ -1,0 +1,8 @@
+databasename = employee
+
+tablename = prodable = { name : varchar, id : int }
+tablename = stu = { name : varchar, id : int, age : int }
+tablename = emp = { id : int }
+tablename = newtab = { name : varchar, id : int }
+tablename = newTable = { name : varchar, id : int }
+tablename = sal = { id : int, salary : int, type : varchar }

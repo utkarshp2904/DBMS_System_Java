@@ -1,0 +1,5 @@
+databasename = company
+
+tablename = test = { name : varchar, id : int }
+tablename = designation = { post : varchar, employeeid : int }
+tablename = employee = { departmentid : int, name : varchar, employeeid : int, email : varchar, age : int }

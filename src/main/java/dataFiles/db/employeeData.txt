@@ -1,0 +1,4 @@
+prodable = { name = "utkarsh" , id = "1" } , { name = "j" , id = "2" }
+emp = { name = "ram" , id = "8" } , { name = "janvi" , id = "2" } , { name = "s" , id = "1" } , { name = "keyswa" , id = "3" }
+newTable = { name = "janvi" , id = "1" } , { name = "jay" , id = "1" } , { name = "keyusha" , id = "2" }
+sal = { id = "1" , salary = "2000" , type = "cash" } , { id = "3" , salary = "20000" , type = "cheque" }

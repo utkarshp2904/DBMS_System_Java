@@ -1,0 +1,9 @@
+Primary Key For Table = prodable = id
+Primary Key For Table = stu = id
+Primary Key For Table = emp = id
+Primary Key For Table = newtab = id
+Primary Key For Table = newTable = id
+Primary Key For Table = sal = type
+Foreign key 3 = emp(id) Reference To sal(id)
+Foreign key 1 = stu(id) Reference To emp(id)
+Foreign key 2 = stu(id) Reference To sal(id)

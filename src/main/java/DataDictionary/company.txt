@@ -1,0 +1,36 @@
+Database = company
+
+Table : testremote {
+	id : int
+	age : varchar
+} Location : Remote site
+
+Table : location {
+	locationname : varchar
+	locationid : int
+} Location : Remote site
+
+Table : designation {
+	post : varchar
+	employeeid : int
+} Location : Local site
+
+Table : check {
+	id : int
+	age : varchar
+} Location : Remote site
+
+Table : employee {
+	departmentid : int
+	name : varchar
+	employeeid : int
+	email : varchar
+	age : int
+} Location : Local site
+
+Table : department {
+	departmentname : varchar
+	locationid : int
+	departmentid : int
+} Location : Remote site
+

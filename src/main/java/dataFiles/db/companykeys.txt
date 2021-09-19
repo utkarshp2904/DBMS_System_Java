@@ -1,0 +1,13 @@
+Primary Key For Table = test = id
+Primary Key For Table = testremote = id
+Primary Key For Table = project = projectid
+Primary Key For Table = location = locationid
+Primary Key For Table = check = id
+Primary Key For Table = employee = employeeid
+Primary Key For Table = department = departmentid
+Primary Key For Table = we = id
+Foreign key 3 = salary(employeeid) Reference To employee(employeeid)
+Foreign key 4 = project(departmentid) Reference To department(departmentid)
+Foreign key 1 = employee(departmentid) Reference To department(departmentid)
+Foreign key 2 = designation(employeeid) Reference To employee(employeeid)
+Foreign key 5 = department(locationid) Reference To location(locationid)
